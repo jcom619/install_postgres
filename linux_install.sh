@@ -8,11 +8,14 @@ git config --global core.excludesfile ~/.gitignore_global
 #-------------------------------------------------------------------------------
 
 # installs postgres
-apt-get install postgresql-12
+apt-get install postgresql
 
 # allows postgres to start when you start the machine
 sudo systemctl enable postgresql
 
-sleep(5)
+sudo -u postgres createuser root -s
+sudo -u postgres createuser ${USER} -s
 
 createdb ${USER}
+
+# if the above line failed, try `sudo createdb ${USER}`
