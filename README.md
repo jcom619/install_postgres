@@ -23,6 +23,8 @@ Type "help" for help
 [yourusername]=#
 ```
 
+(You can exit by typing `ctrl + z`)
+
 If you do, everything went smoothly! If you didn't, there was a problem somewhere. Paste what you see in your terminal into your pull request.
 
 #### If you have a Linux computer:
