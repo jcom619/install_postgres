@@ -8,7 +8,7 @@ git config --global core.excludesfile ~/.gitignore_global
 #-------------------------------------------------------------------------------
 
 # install brew
-${SHELL} -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # install postgresql
 brew install postgresql
