@@ -1,4 +1,4 @@
-# Installing Postgres
+* # Installing Postgres
 
 Time to start putting our data into the machine...
 
